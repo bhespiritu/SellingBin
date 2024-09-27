@@ -1,0 +1,28 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "sellingbin:item/error"
+  },
+  "overrides": [
+    {
+      "predicate": { "material": 0.0 },
+      "model": "sellingbin:block/selling_bin/wood"
+    },
+    {
+      "predicate": { "material": 0.1 },
+      "model": "sellingbin:block/selling_bin/redstone"
+    },
+    {
+      "predicate": { "material": 0.2 },
+      "model": "sellingbin:block/selling_bin/iron"
+    },
+    {
+      "predicate": { "material": 0.3 },
+      "model": "sellingbin:block/selling_bin/diamond"
+    },
+    {
+      "predicate": { "material": 0.4 },
+      "model": "sellingbin:block/selling_bin/netherite"
+    }
+  ]
+}

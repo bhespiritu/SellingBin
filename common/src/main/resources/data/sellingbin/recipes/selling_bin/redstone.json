@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "#i#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "i": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "sellingbin:selling_bin",
+    "nbt": {
+      "material": "redstone",
+      "mode": "BLOCK_BOUND"
+    },
+    "count": 1
+  }
+}

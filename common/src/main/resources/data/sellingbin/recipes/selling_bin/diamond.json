@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "#S#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "item": "sellingbin:selling_bin",
+      "nbt": {
+        "material": "iron"
+      }
+    }
+  },
+  "result": {
+    "item": "sellingbin:selling_bin",
+    "nbt": {
+      "material": "diamond",
+      "mode": "PLAYER_BOUND"
+    },
+    "count": 1
+  }
+}

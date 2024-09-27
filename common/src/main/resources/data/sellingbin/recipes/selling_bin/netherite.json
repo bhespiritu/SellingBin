@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "#S#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "S": {
+      "item": "sellingbin:selling_bin",
+      "nbt": {
+        "material": "diamond"
+      }
+    }
+  },
+  "result": {
+    "item": "sellingbin:selling_bin",
+    "nbt": {
+      "material": "netherite",
+      "mode": "PLAYER_BOUND"
+    },
+    "count": 1
+  }
+}

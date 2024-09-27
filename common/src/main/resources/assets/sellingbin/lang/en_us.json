@@ -1,0 +1,11 @@
+{
+  "item.sellingbin.error": "Error Item",
+  "block.sellingbin.error": "Error Block",
+  "block.sellingbin.selling_bin": "Selling Bin",
+  "block.sellingbin.selling_bin.wood": "Wooden Selling Bin",
+  "block.sellingbin.selling_bin.redstone": "Redstone Selling Bin",
+  "block.sellingbin.selling_bin.iron": "Iron Selling Bin",
+  "block.sellingbin.selling_bin.diamond": "Diamond Selling Bin",
+  "block.sellingbin.selling_bin.netherite": "Netherite Selling Bin",
+  "container.selling_bin": "Selling Bin"
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "mixin": [
+    "sellingbin-common.mixins.json",
+    "sellingbin-quilt.mixins.json"
+  ],
+  "quilt_loader": {
+    "group": "bigchadguys",
+    "id": "sellingbin",
+    "version": "1.0.0",
+    "metadata": {
+      "name": "Selling Bin",
+      "description": "",
+      "contributors": {
+        "KaptainWutax": "Author"
+      },
+      "contact": {
+        "sources": "https://github.com/bigchadguys/SellingBin/"
+      },
+      "icon": "assets/sellingbin/icon.png"
+    },
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "entrypoints": {
+      "init": [
+        "bigchadguys.sellingbin.quilt.SellingBinQuiltMod"
+      ]
+    },
+    "depends": [
+      {
+        "id": "quilt_loader",
+        "version": "*"
+      },
+      {
+        "id": "quilt_base",
+        "version": "*"
+      },
+      {
+        "id": "minecraft",
+        "version": ">=1.20.1"
+      }
+    ]
+  },
+  "minecraft": {
+    "environment": "*"
+  }
+}

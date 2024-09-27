@@ -1,0 +1,83 @@
+{
+  "variants": {
+    "material=wood,facing=north": {
+      "model": "sellingbin:block/selling_bin/wood"
+    },
+    "material=wood,facing=south": {
+      "model": "sellingbin:block/selling_bin/wood",
+      "y": 180
+    },
+    "material=wood,facing=west": {
+      "model": "sellingbin:block/selling_bin/wood",
+      "y": 270
+    },
+    "material=wood,facing=east": {
+      "model": "sellingbin:block/selling_bin/wood",
+      "y": 90
+    },
+
+    "material=redstone,facing=north": {
+      "model": "sellingbin:block/selling_bin/redstone"
+    },
+    "material=redstone,facing=south": {
+      "model": "sellingbin:block/selling_bin/redstone",
+      "y": 180
+    },
+    "material=redstone,facing=west": {
+      "model": "sellingbin:block/selling_bin/redstone",
+      "y": 270
+    },
+    "material=redstone,facing=east": {
+      "model": "sellingbin:block/selling_bin/redstone",
+      "y": 90
+    },
+
+    "material=iron,facing=north": {
+      "model": "sellingbin:block/selling_bin/iron"
+    },
+    "material=iron,facing=south": {
+      "model": "sellingbin:block/selling_bin/iron",
+      "y": 180
+    },
+    "material=iron,facing=west": {
+      "model": "sellingbin:block/selling_bin/iron",
+      "y": 270
+    },
+    "material=iron,facing=east": {
+      "model": "sellingbin:block/selling_bin/iron",
+      "y": 90
+    },
+
+    "material=diamond,facing=north": {
+      "model": "sellingbin:block/selling_bin/diamond"
+    },
+    "material=diamond,facing=south": {
+      "model": "sellingbin:block/selling_bin/diamond",
+      "y": 180
+    },
+    "material=diamond,facing=west": {
+      "model": "sellingbin:block/selling_bin/diamond",
+      "y": 270
+    },
+    "material=diamond,facing=east": {
+      "model": "sellingbin:block/selling_bin/diamond",
+      "y": 90
+    },
+
+    "material=netherite,facing=north": {
+      "model": "sellingbin:block/selling_bin/netherite"
+    },
+    "material=netherite,facing=south": {
+      "model": "sellingbin:block/selling_bin/netherite",
+      "y": 180
+    },
+    "material=netherite,facing=west": {
+      "model": "sellingbin:block/selling_bin/netherite",
+      "y": 270
+    },
+    "material=netherite,facing=east": {
+      "model": "sellingbin:block/selling_bin/netherite",
+      "y": 90
+    }
+  }
+}

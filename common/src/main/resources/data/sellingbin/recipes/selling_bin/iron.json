@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "iSi",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "sellingbin:selling_bin",
+      "nbt": {
+        "material": "wood"
+      }
+    }
+  },
+  "result": {
+    "item": "sellingbin:selling_bin",
+    "nbt": {
+      "material": "iron",
+      "mode": "PLAYER_BOUND"
+    },
+    "count": 1
+  }
+}

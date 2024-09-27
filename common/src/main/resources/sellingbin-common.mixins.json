@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "package": "bigchadguys.sellingbin.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "client": [
+    "MixinBlockEntityRendererFactories",
+    "MixinClientPlayNetworkHandler",
+    "MixinDrawContext",
+    "MixinHandledScreen",
+    "ProxyModelPredicateProviderRegistry"
+  ],
+  "mixins": [
+    "MixinCommandManager",
+    "MixinIngredient",
+    "MixinItemGroup",
+    "MixinShapedRecipe"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+issueTrackerURL = "https://github.com/bigchadguys/DailyShop/issues"
+license = "GNU General Public License v3.0"
+
+[[mods]]
+modId = "sellingbin"
+version = "1.0.2"
+displayName = "Selling Bin"
+authors = "KaptainWutax"
+description = ''''''
+logoFile = "assets/sellingbin/icon.png"
+
+[[dependencies.sellingbin]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.sellingbin]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"

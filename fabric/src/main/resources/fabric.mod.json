@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "sellingbin",
+  "version": "1.0.0",
+  "name": "Selling Bin",
+  "description": "",
+  "authors": [
+    "KaptainWutax"
+  ],
+  "contact": {
+    "sources": "https://github.com/bigchadguys/SellingBin/"
+  },
+  "license": "GNU General Public License v3.0",
+  "icon": "assets/sellingbin/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "bigchadguys.sellingbin.fabric.SellingBinFabricMod"
+    ]
+  },
+  "mixins": [
+    "sellingbin-common.mixins.json",
+    "sellingbin-fabric.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.20.1"
+  }
+}
