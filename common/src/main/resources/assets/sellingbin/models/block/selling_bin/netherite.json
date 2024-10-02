@@ -2,7 +2,7 @@
 	"texture_size": [128, 128],
 	"textures": {
 		"0": "sellingbin:block/selling_bin/netherite",
-		"particle": "sellingbin:block/selling_bin/netherite"
+		"particle": "sellingbin:block/selling_bin/bin_particle"
 	},
 	"elements": [
 		{
