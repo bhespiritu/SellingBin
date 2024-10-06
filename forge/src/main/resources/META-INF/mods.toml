@@ -5,7 +5,7 @@ license = "GNU General Public License v3.0"
 
 [[mods]]
 modId = "sellingbin"
-version = "1.0.2"
+version = "1.0.5"
 displayName = "Selling Bin"
 authors = "KaptainWutax"
 description = ''''''

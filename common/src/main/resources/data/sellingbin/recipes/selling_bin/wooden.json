@@ -17,7 +17,7 @@
     "item": "sellingbin:selling_bin",
     "nbt": {
       "material": "wood",
-      "mode": "PLAYER_BOUND"
+      "mode": "player_bound"
     },
     "count": 1
   }

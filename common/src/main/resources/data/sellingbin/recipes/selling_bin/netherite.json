@@ -20,7 +20,7 @@
     "item": "sellingbin:selling_bin",
     "nbt": {
       "material": "netherite",
-      "mode": "PLAYER_BOUND"
+      "mode": "player_bound"
     },
     "count": 1
   }
