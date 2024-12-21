@@ -1,5 +1,7 @@
 package bigchadguys.sellingbin;
 
+import bigchadguys.sellingbin.block.BinMode;
+import bigchadguys.sellingbin.block.SellingBinBlock;
 import bigchadguys.sellingbin.data.adapter.Adapters;
 import bigchadguys.sellingbin.data.serializable.INbtSerializable;
 import bigchadguys.sellingbin.init.ModConfigs;
@@ -24,9 +26,11 @@ public class SellingBinInventory implements SidedInventory, INbtSerializable<Nbt
     private final BlockEntity blockEntity;
     private DefaultedList<ItemStack> inventory;
     private int[] availableSlots;
+    private int intendedCapacity;
 
     public SellingBinInventory(BlockEntity blockEntity, int slots) {
         this.blockEntity = blockEntity;
+        this.intendedCapacity = slots;
         this.setCapacity(slots);
     }
 
@@ -221,7 +225,19 @@ public class SellingBinInventory implements SidedInventory, INbtSerializable<Nbt
     public void readNbt(NbtCompound nbt) {
         NbtList inventory = nbt.getList("slots", NbtElement.COMPOUND_TYPE);
         this.inventory = null;
-        this.setCapacity(inventory.size());
+
+        BinMode mode = blockEntity.getCachedState().get(SellingBinBlock.MODE);
+        if(mode == BinMode.BLOCK_BOUND)
+        {
+            this.setCapacity(intendedCapacity);
+        } else
+        {
+            if(mode != BinMode.PLAYER_BOUND)
+            {
+                SellingBinMod.LOGGER.error("Unsupported BinMode {}. Defaulting to PLAYER_BOUND logic", mode.name());
+            }
+            this.setCapacity(inventory.size());
+        }
 
         for(int i = 0; i < this.inventory.size(); i++) {
             NbtCompound entry = inventory.getCompound(i);
