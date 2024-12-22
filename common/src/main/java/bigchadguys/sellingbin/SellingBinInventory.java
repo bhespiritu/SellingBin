@@ -30,11 +30,11 @@ public class SellingBinInventory implements SidedInventory, INbtSerializable<Nbt
 
     public SellingBinInventory(BlockEntity blockEntity, int slots) {
         this.blockEntity = blockEntity;
-        this.intendedCapacity = slots;
         this.setCapacity(slots);
     }
 
     public void setCapacity(int size) {
+        this.intendedCapacity = size;
         this.availableSlots = IntStream.range(0, size).toArray();
         DefaultedList<ItemStack> oldInventory = this.inventory;
         this.inventory = DefaultedList.ofSize(size, ItemStack.EMPTY);
